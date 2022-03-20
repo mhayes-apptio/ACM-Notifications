@@ -1,0 +1,25 @@
+{
+   "eventVersion":"1.04",
+   "userIdentity":{
+      "type":"IAMUser",
+      "principalId":"AIDACKCEVSQ6C2EXAMPLE",
+      "arn":"arn:aws:iam::123456789012:user/Alice",
+      "accountId":"123456789012",
+      "accessKeyId":"AKIAIOSFODNN7EXAMPLE",
+      "userName":"Alice"
+   },
+   "eventTime":"2016-03-18T00:00:26Z",
+   "eventSource":"acm.amazonaws.com",
+   "eventName":"DeleteCertificate",
+   "awsRegion":"us-east-1",
+   "sourceIPAddress":"192.0.2.0",
+   "userAgent":"aws-cli/1.9.15",
+   "requestParameters":{
+      "certificateArn":"arn:aws:acm:us-east-1:123456789012:certificate/fedcba98-7654-3210-fedc-ba9876543210"
+   },
+   "responseElements":null,
+   "requestID":"01234567-89ab-cdef-0123-456789abcdef",
+   "eventID":"01234567-89ab-cdef-0123-456789abcdef",
+   "eventType":"AwsApiCall",
+   "recipientAccountId":"123456789012"
+}
